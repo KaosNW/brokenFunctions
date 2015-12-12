@@ -85,4 +85,3 @@ function contains(collection, target) {
     return element === target;
   }, false);
 }
-
