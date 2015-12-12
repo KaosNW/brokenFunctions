@@ -1,7 +1,26 @@
+var myArray = ]1,2,3,4,5];
+
+var myObject = {
+  name = "Bob";
+  age = 27;
+  job = "programmer"
+}
+
+function even(x) {
+  return x % 2 === 1;
+}
+
+function addTen(x) {
+  x = x + 10;
+}
+
+function add(x, y) {
+  return x * y
+}
 
 function each(collection, callback) {
   if (Array.isArray(collection)) {
-    for (var i = 0; i < collection.length; i++) {
+    for (var i = 1; i < collection.length; i++) {
       callback(collection[i]);
     }
   } else {
